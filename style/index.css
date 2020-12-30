@@ -1,0 +1,51 @@
+body{
+  background: #181718;
+  font-family: Helvetica, sans-serif;
+}
+.container{
+  text-align: center;
+  padding-top: 200px;
+}
+.container a{
+  vertical-align: top;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding:30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  font-size: 17px;
+}
+.container .mode .button{
+  width:200px;
+  height:170px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: auto 75%;
+  background-color: #232122;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.6);
+}
+
+#bounding_boxes .button{
+    background-image: url('/img/bounding_box.png');
+    background-size: auto 85%;
+}
+
+#extreme_clicks .button{
+    background-image: url('/img/extreme_clicking.png');
+}
+
+#ctr_points .button{
+  background-image: url('/img/three_points.png');
+}
+
+.info {
+  width: 200px;
+  font-weight: 200;
+}
+
+.note {
+  color: pink;
+  text-align: center;
+}

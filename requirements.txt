@@ -1,0 +1,4 @@
+bottle
+pillow
+numpy
+mysql-connector-python
