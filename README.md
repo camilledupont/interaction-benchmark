@@ -20,7 +20,7 @@ pip install -r requirements.txt
 source ~/bench/bin/activate
 ```
 
-Run application:
+Run application *under Google Chrome*:
 
 ```
 python run.py
